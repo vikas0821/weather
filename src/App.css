@@ -1,38 +1,95 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.App { 
+   margin: auto;
+    width: 90vw;
+    background-image:  -webkit-radial-gradient(#8a5b40,#0062ff);
   }
-}
+  
+  nav {
+    color: #fff;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
   }
-  to {
-    transform: rotate(360deg);
+  .logo{
+    font-size: 3rem;
+    display: inline-block;
+    margin-left:40px ;
+    margin-top: 20px;
   }
-}
+  .Wcloud{
+   margin-left: 20px;
+   display: inline;
+  }
+
+  
+  
+  .img_left{
+    position: relative;
+    bottom:50px;
+  }
+  .img_left img{
+    border-radius: 100px;
+    width:200px;
+
+  }
+  
+  main {
+    height: 90vh;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  .input-container,.weather-details {
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height:500px;
+    justify-content: center;
+  }
+  .input-container{
+    background-color: #00000070;
+  }
+  .weather-details{
+    
+  }
+  
+  input {
+    width:80%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  .w-data{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    color: #fff;
+  }
+
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+
+  @media screen and (max-width:720px) {
+    .container {
+      flex-direction: column;
+    }
+  }
+  
