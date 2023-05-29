@@ -16,7 +16,7 @@ function Weather() {
       const options = {
         method: 'GET',
         headers: {
-          'X-RapidAPI-Key': process.env.mykey,
+          'X-RapidAPI-Key': '279986fc90mshe29106560b68522p10f442jsnda2642b34b94',
           'X-RapidAPI-Host': 'ai-weather-by-meteosource.p.rapidapi.com'
         }
       };
@@ -46,7 +46,7 @@ function Weather() {
       const options = {
         method: 'GET',
         headers: {
-          'X-RapidAPI-Key': process.env.mykey,
+          'X-RapidAPI-Key': '279986fc90mshe29106560b68522p10f442jsnda2642b34b94',
           'X-RapidAPI-Host': 'ai-weather-by-meteosource.p.rapidapi.com'
         }
       };
